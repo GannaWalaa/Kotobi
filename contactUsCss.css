@@ -1,0 +1,32 @@
+.contact-us{
+    width: 98%;
+    height: 500px;
+    margin: 70px 30px;
+}
+.contact-us-block{
+    width: 48%;
+    height: 95%;
+    margin: 10px;
+    float: left;
+}
+#contact-us-text-title{
+    font-family: "Montserrat";
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 50px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+#contact-us-text-description{
+    font-family: "Montserrat";
+    font-size: 24px;
+    margin: 0px 25px 0px 50px;
+    text-align: justify;
+}
+#contact-us-information{
+    font-family: "Montserrat";
+    font-size: 18px;
+    margin: 10px 25px 0px 50px;
+    text-align: justify;
+}

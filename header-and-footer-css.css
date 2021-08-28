@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    padding: 0px 70px;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    display: block;
+}
+.logo-name{
+    float: left;
+    color: white;
+    padding-top: 20px;
+    margin-top: 0px;
+    text-transform: capitalize;
+    font-family: "Montserrat"   
+}
+.nav-ul{
+    float: right;
+    padding-top: 30px;
+    margin-top: 0px;
+}
+.nav-li{
+    display: inline-block;
+    list-style: none;
+}
+.nav-a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 32px;
+    font-family: "Montserrat";
+}
+.nav-a:hover{
+    color: rgb(178, 179, 179)
+}
+#footer-part1{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    padding: 0px;
+    display: block;
+}
+#footer-part2{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(36, 36, 36);
+    display: block;
+}
+#footer-part2-notes{
+    color: rgb(182, 181, 181);
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.footer-part1-parts{
+    /* border: 1px rgb(30, 30, 168) solid; */
+    width: 33%;
+    height: 98%;
+    padding: 0px;
+    margin: 2px;
+    float: left;
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+}
+#footer-part1-left{
+    padding-left: 25px;
+}
+#footer-part1-middle{
+}
+#footer-part1-right{
+}
+#footer-description{
+    text-align: justify;
+    padding: 7px 20px 5px 10px;
+    font-size: 15px;
+    color: rgb(255, 254, 254);
+    font-family: "Montserrat";
+}
+.footer-adjust{
+    float: none;
+}
+#footer-link_title{
+    color: rgb(178, 179, 179);
+    font-size: 19px;
+    font-family: "Montserrat";
+    font-weight: bolder;
+}
+.footer-li{
+    padding: 0px 20px 8px 80px;
+}
+.footer-a{
+    font-size: 15px;
+    font-family: "Montserrat";
+    color: white;
+    text-decoration: none;
+}
+.footer-a:hover{
+    color: rgb(178, 179, 179);
+}
