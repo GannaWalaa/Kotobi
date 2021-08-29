@@ -52,12 +52,12 @@
             
         </header>
         
-        <nav style="overflow-x: auto;">
+        <nav style="overflow: hidden;">
             <div class = "logo">
                 <p class="logo-name">Kotobi</p>
             </div>
-            <ul style="overflow-x: auto;" class="nav-ul">
-                <li class="nav-li"><a style="color=red;" class="nav-a" href = "home.html">Home</a></li>
+            <ul class="nav-ul">
+                <li class="nav-li"><a class="nav-a" href = "home.html">Home</a></li>
                 <li class="nav-li"><a class="nav-a" href = "AboutUs.html">About Us</a></li>
                 <li class="nav-li"><a class="nav-a" href = "shop.html">Shop</a></li>
                 <li class="nav-li"><a class="nav-a" href = "contactUs.html">Contact Us</a></li>
@@ -71,9 +71,9 @@
             <br><br><br><br><br><br><br><br><br><br>
         </article>
         
-        <footer style="overflow-x: auto;">
-            <div style="overflow-x: auto;" id="footer-part1">
-                <div style="overflow-x: auto;" class="footer-part1-parts" id="footer-part1-left">
+        <footer style="overflow: hidden;">
+            <div style="overflow: hidden;" id="footer-part1">
+                <div style="overflow: hidden;" class="footer-part1-parts" id="footer-part1-left">
                     <div style="padding-left: 10px" class = "logo">
                         <p class="logo-name footer-adjust">Kotobi</p>
                     </div>
@@ -103,7 +103,7 @@
                         </a>
                     </div>
                 </div>
-                <div style="overflow-x: auto;" class="footer-part1-parts" id="footer-part1-middle">
+                <div style="overflow: hidden;" class="footer-part1-parts" id="footer-part1-middle">
                     <p style= "padding: 30px 0px 10px 80px;" id="footer-link_title"> Links </p>
                     <ul>
                         <li class="footer-li"><a class="footer-a" href = "home.html">Home</a></li>
@@ -112,12 +112,11 @@
                         <li class="footer-li"><a class="footer-a" href = "contactUs.html">Contact Us</a></li>
                     </ul>
                 </div>
-                <div style="overflow-x: auto;" class="footer-part1-parts" id="footer-part1-right">
+                <div style="overflow: hidden;" class="footer-part1-parts" id="footer-part1-right">
                     <p style="padding-top: 30px" id="footer-link_title"> Subscribe to our newsletter </p>
                     <form action="" method="GET">
-                        <input type="email" id="email" name="email" placeholder= "Enter your Email">
-                        <br>
-                        <button type="submit">Send</button>
+                        <input type="email" id="email" name="email" placeholder= "Enter your Email" required>
+                        <button type="submit" id="subscribe">Subscribe</button>
                     </form>
                 </div>
             </div>
