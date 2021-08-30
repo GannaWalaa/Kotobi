@@ -119,7 +119,7 @@ nav{
     border-right: 0px;
     border-bottom: 1px solid rgb(178, 179, 179);
 }
-#subscribe{
+#btn-submit{
     padding: 10px 15px;
     cursor: pointer;
     outline: none;
@@ -129,7 +129,7 @@ nav{
     background-color: rgb(130, 131, 131);
     display: block;
 }
-#subscribe:hover{
+#btn-submit:hover{
     color: rgb(130, 131, 131);
     background-color: white;
     font-weight: bold;

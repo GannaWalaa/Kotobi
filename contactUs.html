@@ -33,8 +33,9 @@
                 <li class="nav-li"><a class="nav-a" href = "contactUs.html">Contact Us</a></li>
             </ul>
         </nav>
-        
+                
         <section>
+            
         </section>
         
         <article>
@@ -75,7 +76,15 @@
                     
                 </div>
                 <div style="overflow-x: auto;" class="contact-us-block">
-                        <h1 id="contact-us-text-title">Contact Form</h1>
+                        <h1 style="margin-left:30px" id="contact-us-text-title">Contact Form</h1>
+                        <div id="contact-us-form-block">
+                            <form action="" method="POST">
+                                <input type="text" id="form-Name" name="form-Name" placeholder="Enter your name" required>
+                                <input type="email" id="form-email" name="form-email" placeholder="Enter your email" required>
+                                <textarea style=" height: 100px;" id="form-notes" name="form-notes" placeholder="Enter your message" required></textarea>
+                                <button style="margin-left:20px;" type="submit" id="btn-submit">Send</button>
+                            </form>                    
+                        </div>
                 </div>
             </div>
         </article>
@@ -124,8 +133,8 @@
                 <div style="overflow: hidden;" class="footer-part1-parts" id="footer-part1-right">
                     <p style="padding-top: 30px" id="footer-link_title"> Subscribe to our newsletter </p>
                     <form action="" method="GET">
-                        <input type="email" id="email" name="email" placeholder= "Enter your Email" required>
-                        <button type="submit" id="subscribe">Subscribe</button>
+                        <input type="email" id="email" name="email" placeholder= "Enter your email" required>
+                        <button type="submit" id="btn-submit">Subscribe</button>
                     </form>
                 </div>
             </div>
