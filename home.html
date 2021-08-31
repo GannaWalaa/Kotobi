@@ -12,6 +12,9 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="header-and-footer-css.css">
+        <link rel="stylesheet" href="homeCss.css">
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         
         <style>
             
@@ -22,7 +25,7 @@
             
         </header>
         
-        <nav style="overflow: hidden;">
+        <nav style="text-decoration: none; overflow: hidden;">
             <div class = "logo">
                 <p class="logo-name">Kotobi</p>
             </div>
@@ -35,14 +38,85 @@
         </nav>
         
         <section>
-            <br><br> <br><br><br> <br> <br> <br>
+            <div style="overflow: hidden" class="welcome-block">
+                <div class="welcome-block-parts">
+                    <div id="welcome-block-left">    
+                        <h1 id="welcome-title">Welcome to Kotobi</h1>
+                        <p id="welcome-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quo libero error rem aliquid sequi odit quis voluptatum quidem natus. Nisi, magnam modi. Sapiente illo nulla cupiditate, eligendi maxime blanditiis.</p>
+                        <div class="container">
+                                <a href="#" class="btn btn-store">
+                                    <span class="fa fa-apple fa-3x pull-left"></span> 
+                                    <span class="btn-label">Download on the</span>
+                                    <span class="btn-caption">App Store</span>
+                                </a>
+                                <a href="#" class="btn btn-store">
+                                    <span class="fa fa-android fa-3x pull-left"></span> 
+                                    <span class="btn-label">Download on the</span>
+                                    <span class="btn-caption">Google Play</span>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="welcome-block-parts">
+                    <div class="behind">
+                        <div class="circle"></div>
+                        <img id="welcome-img" src="images/send-png1.png" alt="welcome-img">
+                    </div>
+                </div>
+            </div>
         </section>
         
         <article>
-            <h1>Home Page</h1>
-            <img src="images/Page_Under_Construction.png" width="70%" height="50%" alt = "BooksPicture" title="Books">
+            <div class="article-block">
+                <div class="article-block-left">
+                    <h1 class="article-block-title">See the latest bestsellers!</h1>
+                    <p class="article-block-description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Quidem, aliquam veritatis sunt aut sapiente culpa laboriosam 
+                        maxime doloribus, reprehenderit corporis cupiditate itaque 
+                        eos beatae perferendis eius quisquam rerum iusto consequatur.
+                    </p>
+                </div>
+                <div class="article-block-right">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/gyK9USvrvDQ" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
         </article>
-        
+        <article>
+            <div class="article2-block">
+                <div class="article2-block-parts">
+                    <img class="article-img" src="images/book1.jpg" alt="book1">
+                    <p class="article-img-title">The fault in our stars</p>
+                    <button type="button" class="btn btn-dark article-btn">View</button>
+                </div>
+                <div class="article2-block-parts">
+                    <img class="article-img" src="images/book2.jpg" alt="book2">
+                    <p class="article-img-title">Divergent</p>
+                    <button type="button" class="btn btn-dark article-btn">View</button>
+                </div>
+                <div class="article2-block-parts">
+                    <img class="article-img" src="images/book3.jpg" alt="book3">
+                    <p class="article-img-title">It ends with us</p>
+                    <button type="button" class="btn btn-dark article-btn">View</button>
+                </div>
+                <div class="article2-block-parts">
+                    <img class="article-img" src="images/book4.jpg" alt="book4">
+                    <p class="article-img-title">November 9</p>
+                    <button type="button" class="btn btn-dark article-btn">View</button>
+                </div>
+                <div class="article2-block-parts">
+                    <img class="article-img" src="images/book5.jpg" alt="book5">
+                    <p class="article-img-title">The alchemist</p>
+                    <button type="button" class="btn btn-dark article-btn">View</button>
+                </div>
+                
+            </div>
+        </article>
         <footer style="overflow: hidden;">
             <div style="overflow: hidden;" id="footer-part1">
                 <div style="overflow: hidden;" class="footer-part1-parts" id="footer-part1-left">

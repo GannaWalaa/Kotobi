@@ -35,7 +35,7 @@ nav{
 }
 .nav-a{
     color: rgb(255, 255, 255);
-    text-decoration: none;
+    text-decoration: none !important;
     font-size: 18px;
     text-transform: uppercase;
     padding: 0px 32px;
@@ -101,7 +101,7 @@ nav{
     font-size: 15px;
     font-family: "Montserrat";
     color: white;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 .footer-a:hover{
     color: rgb(178, 179, 179);
