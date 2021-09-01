@@ -9,5 +9,5 @@ This project will be submitted at the end of ITI - Intro to Web Technologies cou
 * Basics of Bootstrap 
 * JavaScript 
 
-This project is an E-Commerce Front-End website where customer can buy used books or sell his own.
+This project is an Book Library Front-End website where customer can view book information.
 
