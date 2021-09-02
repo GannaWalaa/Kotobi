@@ -8,7 +8,7 @@
         <meta name="keywords" content="Books, book, online shopping">
         <meta name="description" content="Online Shopping for Books Website">
         <meta name="author" content="Ganna Walaa">
-        <meta http-equiv="refresh" content="60">
+        <meta http-equiv="refresh" content="300">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="css/header-and-footer-css.css">
@@ -19,10 +19,11 @@
         <style>
             
         </style>
+        <script src="script.js"></script>
     </head>
     <body>
         <header>
-            
+
         </header>
         
         <nav style="text-decoration: none; overflow: hidden;">
@@ -44,12 +45,12 @@
                         <h1 id="welcome-title">Welcome to Kotobi</h1>
                         <p id="welcome-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quo libero error rem aliquid sequi odit quis voluptatum quidem natus. Nisi, magnam modi. Sapiente illo nulla cupiditate, eligendi maxime blanditiis.</p>
                         <div class="container">
-                                <a href="#" class="btn btn-store">
+                                <a href="https://www.apple.com/" target="_blank" class="btn btn-store">
                                     <span class="fa fa-apple fa-3x pull-left"></span> 
                                     <span class="btn-label">Download on the</span>
                                     <span class="btn-caption">App Store</span>
                                 </a>
-                                <a href="#" class="btn btn-store">
+                                <a href="https://play.google.com/store" target="_blank" class="btn btn-store">
                                     <span class="fa fa-android fa-3x pull-left"></span> 
                                     <span class="btn-label">Download on the</span>
                                     <span class="btn-caption">Google Play</span>
@@ -93,27 +94,27 @@
                 <div class="article2-block-parts">
                     <img class="article-img" src="images/book1.jpg" alt="book1">
                     <p class="article-img-title">The fault in our stars</p>
-                    <button type="button" class="btn btn-dark article-btn">View</button>
+                    <button onclick="openBookDetails(1)" type="button" class="btn btn-dark article-btn">View</button>
                 </div>
                 <div class="article2-block-parts">
                     <img class="article-img" src="images/book2.jpg" alt="book2">
                     <p class="article-img-title">Divergent</p>
-                    <button type="button" class="btn btn-dark article-btn">View</button>
+                    <button onclick="openBookDetails(2)" type="button" class="btn btn-dark article-btn">View</button>
                 </div>
                 <div class="article2-block-parts">
                     <img class="article-img" src="images/book3.jpg" alt="book3">
                     <p class="article-img-title">It ends with us</p>
-                    <button type="button" class="btn btn-dark article-btn">View</button>
+                    <button onclick="openBookDetails(3)" type="button" class="btn btn-dark article-btn">View</button>
                 </div>
                 <div class="article2-block-parts">
                     <img class="article-img" src="images/book4.jpg" alt="book4">
                     <p class="article-img-title">November 9</p>
-                    <button type="button" class="btn btn-dark article-btn">View</button>
+                    <button onclick="openBookDetails(4)" type="button" class="btn btn-dark article-btn">View</button>
                 </div>
                 <div class="article2-block-parts">
                     <img class="article-img" src="images/book5.jpg" alt="book5">
                     <p class="article-img-title">The alchemist</p>
-                    <button type="button" class="btn btn-dark article-btn">View</button>
+                    <button onclick="openBookDetails(5)" type="button" class="btn btn-dark article-btn">View</button>
                 </div>
                 
             </div>
